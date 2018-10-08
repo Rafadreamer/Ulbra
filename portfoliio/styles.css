@@ -1,0 +1,303 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: none;
+	vertical-align: baseline;
+	font-family: 'Poppins', sans-serif;
+}
+
+body{
+	width: 100%;
+	background:#0d0d1a;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+}
+
+li {
+   display: inline-block;
+}
+
+li a {
+    color: white;
+    text-align: center;
+    padding: 2em;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color:#0c0c16;
+}
+
+h1{
+	color: #fff;
+	font-size: 48px;
+}
+
+p{
+	color: #fff;
+	font-size:16px;
+	font-weight: 300;
+}
+
+nav {
+	 height: 70px;
+	 line-height: 70px;
+	 display: flex;
+}
+header{
+	margin: 100px 0 100px 120px;
+}
+header p {
+	width: 60%;
+	margin-top: 10px;
+}
+
+footer p{
+	text-align: center;
+	color: gray;
+	margin: 60px  auto;
+	clear: both;
+}
+
+.tudo{
+	width: 90%;
+	margin: 0 auto;
+}
+
+.menu{
+	position: relative;
+}
+
+.contato{
+	float: left;
+	padding: 3em;
+}
+.contato1{
+	padding: 3em;
+	float: left;
+}
+.contact{
+	margin: 0 auto;
+	padding: 3em;
+}
+.fotos{
+	text-align: center;
+	width: 100%;
+}
+
+.fotos img:hover {
+ transform:scale(1.1);  
+}
+
+.fotos img {
+	margin: 1%;
+	width: 45%;
+}
+
+.fotos3 img {
+	margin: 1%;
+	width: 30%;
+}
+
+.fotos3 img:hover {
+ transform:scale(1.1);  
+}
+
+.header2{
+	margin: 100px 0 80px 120px;
+}
+
+.fotos2{
+	width: 100%;
+	text-align: center;
+}
+
+.fotos2 img {
+	margin: 1%;
+	width: 80%;
+}
+.redes {
+	text-align: center;
+	color: white;
+}
+.redes h2{
+	margin: auto 2em;
+}
+.redes img {
+	width: 3em;
+	height:auto;
+	margin: 10px;
+}
+.redes img:hover{
+	transform: scale(1.1);
+}
+
+#logo a {
+	font-size: 3em;
+	color: #fff;
+	text-decoration: none;
+}
+
+#logo{
+	max-width: 40%;
+}
+
+#perfil{
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin:10px;
+	margin-right:40px;
+}
+
+#mais {
+	color: white;
+	text-decoration-line: none;
+}
+
+#mais:hover{
+	text-decoration-line:underline;	
+}
+
+#sobre {
+	width: 130%;
+}
+
+#sobre img {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin:10px;
+	margin-right:40px
+
+}
+
+#sobre h1 {
+	padding-bottom: 20px;
+}
+
+/* aqui formulario de contato */
+
+
+
+form  {
+	color: white;    
+}
+
+input[type=text] , [type=email]{
+    padding: 10px 25px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: none;
+    border-bottom: 2px solid #4c4c4c;
+    background-color:#f1f1f1;
+    color:black;
+    outline: none;
+}
+
+
+input[type=text]:focus {
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+
+input[type=button], input[type=submit]  {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+select {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color:#f1f1f1;
+    li
+}
+
+
+/* fim do form */
+
+
+
+@media only screen and (max-width: 991px){
+		header{
+			text-align: left;
+			margin: 100px 0 100px 30px;
+		}
+		header h1{
+			font-size: 36px;
+		}
+		header p{
+			font-size: 14px;
+			width: 90%
+		}
+		.foto img{
+			margin: 2%;
+			width: 90%;
+		}
+		.header2{
+			margin: 130px 0 40px 12px;	
+		}
+		.header2 h1{
+			font-size: 36px;
+		}
+		.header2 p{
+			font-size: 14px;
+			width: 90%;
+		}
+		.fotos2{
+			margin: 2%;
+		}
+		#logo{
+			text-align: center;
+			max-width: 100%;
+		}
+		#logo a {
+			text-align: center;
+			margin: 0 auto;
+		}
+
+		.menu{
+			display: block;
+			height: auto;
+			padding-top: 2em;
+		}
+
+		ul{
+			display: block;
+			text-align: center;
+			width: 100%;
+			margin: 3em auto;
+			position: static;
+		}
+
+		ul li a {
+			font-size: 2em;
+		}
+
+		#perfil{
+			width: 15em;
+			height: 15em;
+			text-align: center;
+			margin:50px;
+			margin-left: 5em; 
+		}
+}
+
+	
