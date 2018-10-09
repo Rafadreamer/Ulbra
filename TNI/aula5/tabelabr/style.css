@@ -1,0 +1,197 @@
+body{
+	margin: 0 auto;
+}
+
+tr{
+	text-align: center;
+}
+
+td{
+	border-bottom: 1px solid #ddd;
+	padding-top: 5px;
+	padding-bottom: 7px;
+	font-family: sans-serif;
+}
+
+th,h1,h2{
+	font-family: sans-serif;
+}
+
+h2{
+	font-size: 22px;
+}
+
+strong{
+	font-size: 15px;
+}
+
+.tudo{
+	width: 90%;
+}
+
+.cabe{
+	width: 100%;
+	height: 70px;
+	background-color:#3b9c00;
+	color: white;
+	font-family:sans-serif;
+	text-align: center;
+	font-size: 30px;
+}
+
+.tabela{
+	width:70%;
+	float: left;
+	margin-left:30px;
+}
+
+.jogos{
+	width: 30%;
+	float: left;
+}
+
+.rodap{}
+
+.verde{
+	background-color:#3b9c00;
+	border-radius: 50%;
+	width: 10px;
+	height: 10px;
+	float: left;
+	margin: 4px;
+}
+
+.vermelho{
+	background-color:red;
+	border-radius: 50%;
+	width: 10px;
+	height: 10px;
+	float: left;
+	margin: 4px;
+}
+
+.logotime{
+	background-color:#3b9c00;
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	float: left;
+	margin: 4px;
+	margin-left: 20px;
+}
+
+#linhalado {
+	background-color: #DDD;
+	width: 1px;
+	height: 820px;
+	float: left;
+	margin: 10px;
+	margin-top: 35px;
+ }
+
+ #tabela1 {
+	text-align: left;
+	margin-top: 30px;
+	font-weight: bold;
+	font-size: 30px;
+	font-family: sans-serif;
+}
+
+ #tabela2 {
+	text-align: left;
+	margin-top: 30px;
+	font-weight: bold;
+	font-size: 30px;
+	font-family: sans-serif;
+}
+
+#detalhe {
+	font-size: 15px;
+	color:  #b3b3b3;
+	font-family: sans-serif;
+}
+
+#seta1 {
+	font-size: 20px;
+	font-weight: bold;
+	color: #3B9C00;
+}
+#jogostab {
+	border-bottom: 10px;
+	padding:5px;
+	padding-bottom: 0px;
+	border: 10px;
+	
+}
+#jogostab2 {
+	border-bottom: 10px;
+	font-weight: bold;
+	font-size: 20px;
+	padding-left: 5px;
+}
+
+#jogostxt {
+	font-size: 15px;
+	font-family: sans-serif;
+
+}
+#cor_coluna{
+	background-color: #eaeaea;
+}
+
+#informativo {
+	font-size: 11px;
+	font-family: sans-serif;
+}
+
+#jogotxt1 {
+	font-size: 20px;
+}
+
+#tabela3 {
+	border-bottom: 0px;
+	padding:5px;
+	padding-bottom: 0px	;
+}
+#placar {
+	font-size: 25px;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+.jogadores{
+	width: 92%;
+	clear: both;
+	margin-left: 50px;
+}
+
+#textordp {
+	font-size: 30px;
+	color: grey;
+}
+
+#nomerdp {
+	font-size: 17px;
+	padding-left:10px;
+}
+
+#jogordp{
+	width: 90px;
+	border-radius: 50%;
+	padding-top: 5px;
+}
+#logotime{
+	padding-left: 50px;
+
+}
+#g4{
+	color: blue;
+
+}
+
+#z4{
+	color: red;
+}
+
+
+

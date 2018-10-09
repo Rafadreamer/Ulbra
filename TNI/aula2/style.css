@@ -1,0 +1,93 @@
+body{
+	background-color: #66a3ff;
+}
+
+.geral{
+	width: 100%;
+	text-align: center;	
+}
+
+.topo{
+
+	width:90%;
+	height: 150px;
+	text-align: center;
+	clear: both;
+}
+
+.foto {
+	width:30%;
+	height:auto;
+	float:left;
+	text-align:center;
+}
+
+.menu{
+	width: 70%;
+	height:150px;
+	float: left;
+	background-color: white;
+}
+
+.corpo{
+	width: 100%;
+	background-color: white;
+}
+
+.info{
+	float: left;
+	width: 25%;
+	text-align: center;
+	background-color: white;
+}
+
+.info2{
+	float: left;
+	width: 25%;
+	text-align: center;
+	background-color: white;
+}
+
+.info3{
+	float: left;
+	width: 25%;
+	text-align: center;
+	background-color: white;
+}
+
+.info4{
+	float: left;
+	width: 25%;
+	text-align: center;
+	background-color: white;
+}
+
+ul{
+	font-size: 20px;
+ 	list-style: none;
+}
+
+ h2{
+ 	color:#ff0000;
+ }
+ 
+ h1{
+ 	padding-top: 10px;
+ }
+
+#circulo{
+	border-radius: 50%;
+}
+#circulo1{
+	border-radius: 80px;
+}
+
+#circulo2{
+	border-radius: 50%;
+	background-color: white;
+}
+
+.nuvem{
+	width: 100%;
+
+}

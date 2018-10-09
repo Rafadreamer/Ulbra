@@ -1,0 +1,21 @@
+body{
+	background-color: gray;
+	font-size: 24px;
+}
+h1{
+	color: black;	
+	text-align: center;
+}
+p{
+	color: blue;
+	font-size:23px;
+	
+}
+.esquerda {
+	width:100px;
+	height: 100px;
+	float:center;
+	color: black 
+	background-color: red;
+
+}
