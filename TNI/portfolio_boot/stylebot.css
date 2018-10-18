@@ -1,0 +1,152 @@
+*{
+	font-family: 'Poppins', sans-serif;
+}
+
+body  {
+	padding: 0 auto!important;
+	margin: 0 auto !important;
+	background-color: #f2f2f2!important;
+	
+}
+
+header{
+
+}
+
+footer p{
+	text-align: center;
+	color: black;
+	margin: 60px  auto;
+}
+
+#perfil{
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin:10px;
+	margin-right:50px;
+}
+
+section {
+	margin: 3em;
+}
+section p {
+	margin-top: 1.5em;
+	font-size: 1.5em;
+}
+
+.fotos{
+
+	text-align: center;
+}
+
+.fotos img:hover {
+	transform:scale(1.1);  
+}
+
+.fotos img {
+	margin: 1%;
+	width: 45%;
+}
+
+.fotos2{
+	width: 100%;
+	text-align: center;
+}
+
+.fotos2 img {
+	margin: 1%;
+	width: 80%;
+}
+
+.header2{
+	margin: 70px 0 80px 50px;
+}
+
+.redes {
+	text-align: center;
+}
+.redes h2{
+	margin: auto 2em;
+}
+.redes img {
+	width: 3em;
+	height:auto;
+	margin: 10px;
+}
+.redes img:hover{
+	transform: scale(1.1);
+}
+
+#sobre  {
+	padding: 2em;
+}
+
+#sobre h1 {
+	padding-top: 1.5em;
+	
+}
+#sobre p {
+	margin: 2em;
+}
+
+form  {
+	
+}
+
+input[type=text] , [type=email]{
+	padding: 10px 25px;
+	margin: 5px 0;
+	box-sizing: border-box;
+	border-radius: 4px;
+	border: none;
+	border-bottom: 2px solid #4c4c4c;
+	color:black;
+	outline: none;
+	background-color: #e6e6e6;
+}
+
+
+input[type=text]:focus {
+	border: 1px solid gray;
+	border-radius: 4px;
+}
+
+input[type=button], input[type=submit]  {
+	border: none;
+	padding: 16px 32px;
+	text-decoration: none;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 10px;
+	background-color: #4CAF50;
+
+}
+
+select {
+	padding: 10px 15px;
+	border: none;
+	border-radius: 4px;
+	background-color:#e6e6e6;
+	li
+}
+
+.contact{
+	margin: 0;
+	text-align: center;
+	
+}
+
+.fotos3 img {
+	width: 30%;
+	margin: 1em;
+}
+
+.fotos3 img:hover {
+	transform:scale(1.1);  
+}
+
+
+
+
