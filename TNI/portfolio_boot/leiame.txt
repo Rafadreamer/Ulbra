@@ -1,1 +1,1 @@
-portfolio adaptado para bs4 reonsive
+portfolio adaptado para bs4 responsive
