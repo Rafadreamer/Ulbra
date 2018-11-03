@@ -1,2 +1,2 @@
-     # semestre 2018-2
-& USE AS URLS PARA ACESSAR OS DOCS &
+# semestre 2018-2
+$ USE AS URLS PARA ACESSAR OS DOCS $
