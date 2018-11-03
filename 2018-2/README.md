@@ -1,4 +1,3 @@
-        # Ulbra-2018-2
-      1บ semestre 2018-2
+      # ยบ semestre 2018-2
 
 && USE AS URLS PARA ACESSAR OS DOCS &&
