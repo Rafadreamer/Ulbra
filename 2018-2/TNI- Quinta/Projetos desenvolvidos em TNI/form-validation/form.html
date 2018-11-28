@@ -1,0 +1,61 @@
+<!DOCTYPE htm   l>
+<html lang="en">
+<head>
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- meu JS-->
+    <script src="form.js"></script>
+    <link rel="stylesheet" href="form.css">
+
+    <title>form</title>
+    
+</head>
+<body>
+
+        <div class="wrapper fadeInDown">
+                <div id="formContent">
+                  
+              
+                  <!-- head -->
+                  <div class="fadeIn first">
+                    <h1>ADMIN</h1>
+                    <h2>Registrar Usuário</h2>
+                  </div>
+              
+                  <!-- Login -->
+                  <form name="teste" action="enviar.html" method="dialog">
+                    <input type="text" id="login" class="formu" name="nome" placeholder="SEU NOME">
+                    <input type="text" id="login" class="formu" name="email" placeholder="SEU EMAIL">
+                    <input type="text" id="login" class="formu" name="pass" placeholder="SENHA"> <br>
+
+                    <label>
+                            <input name="radio" type="radio" id="box"  value="" />
+                            <span>Concordo com os termos</span>
+                    </label><br>
+
+                    <input type="submit" value="enviar" onclick="validar()">
+
+                  </form>
+              
+                  <!-- senha -->
+                  <div id="formFooter">
+                    <a href="#">Esqueci a Senha</a>
+                  </div>
+              
+                </div>
+              </div>
+    
+</body>
+</html>
