@@ -51,11 +51,16 @@ footer p{
 
 
 .navbar img {
-    max-width: 10%;
+    max-width: 12%;
 }
 
+.navbar img:hover{
+	transform: scale(1.15);
+}
+
+
 .color{
-	background-color: rgba(109, 0, 18, 0.459) !important;
+	background-color: rgba(109, 0, 51, 0.349) !important;
     position:fixed;
     transition: 2s!important;
 }
@@ -116,7 +121,7 @@ input[type=button], input[type=submit]  {
 	margin: 4px 2px;
 	cursor: pointer;
 	border-radius: 10px;
-	background-color: #4CAF50;
+	background-color: rgba(197, 20, 88, 0.479);
 }
 
 .form {
@@ -135,10 +140,18 @@ input[type=button], input[type=submit]  {
        }
     .navbar{
         background-color: rgba(109, 0, 18, 0.281) !important;
-        position: fixed !important;
+        position: relative !important;
         transition: 1s;
     }
-    
+    .navbar img {
+        float: left;
+        text-align: center;
+        max-width:50%;
+
+    }
+    .navbar-brand {
+        max-width: 70%!important;
+    }
 
 }
 
