@@ -60,7 +60,7 @@ footer p{
 
 
 .color{
-	background-color: rgba(109, 0, 51, 0.349) !important;
+	background-color: rgba(187, 3, 64, 0.315) !important;
     position:fixed;
     transition: 2s!important;
 }
@@ -83,7 +83,7 @@ footer p{
         
         border-radius: 15%;
         float: left;
-        background-color: rgba(187, 3, 64, 0.452);
+        background-color: rgba(187, 17, 74, 0.288);
         margin-left: 85%;
  }
 
@@ -110,7 +110,7 @@ input[type=text] , [type=email]{
 
 
 input[type=text]:focus {
-	border: 1px solid gray;
+	border: 1px solid rgb(102, 40, 92);
 	border-radius: 4px;
 }
 
@@ -121,7 +121,8 @@ input[type=button], input[type=submit]  {
 	margin: 4px 2px;
 	cursor: pointer;
 	border-radius: 10px;
-	background-color: rgba(197, 20, 88, 0.479);
+    background-color: rgba(187, 17, 74, 0.288);
+
 }
 
 .form {
@@ -139,7 +140,7 @@ input[type=button], input[type=submit]  {
 
        }
     .navbar{
-        background-color: rgba(109, 0, 18, 0.281) !important;
+        background-color: rgba(187, 17, 74, 0.288)!important;
         position: relative !important;
         transition: 1s;
     }
@@ -152,7 +153,7 @@ input[type=button], input[type=submit]  {
     .navbar-brand {
         max-width: 70%!important;
     }
-
+    
 }
 
 

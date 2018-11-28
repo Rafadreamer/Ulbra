@@ -7,10 +7,10 @@
 
 // rolagem suave .,.,.,.,
 
-    $(document).ready( function($){
+    JQuery(document).ready( function($){
    $(".scroll").click(function(event){
        Event.preventDefault();
-       $('html,body').animate({scrollTop:$(this.hash).offset().top},900) 
+       $('html,body').animate({scrollTop:$(this.hash).offset().top},700) 
    })
 
 });
